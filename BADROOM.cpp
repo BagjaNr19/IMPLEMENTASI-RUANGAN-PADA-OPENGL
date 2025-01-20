@@ -6,7 +6,7 @@ float scale = 1.0;
 bool hidden = false;
 
 GLfloat lightPos[] = {-0.8, 0.9, 0.4, 1.0};
-bool lightingEnabled = false;
+bool lightingEnabled = true;
 
 void dindingkiri();
 void dindingkanan();
@@ -24,7 +24,7 @@ void dindingkiri()
     glPushMatrix();
     glColor3ub(60, 61, 55);
     glTranslatef(-1.1, 0.98, 0.0);
-    glScalef(0.2, 2.0, 2.0);
+    glScalef(0.2, 1.8, 2.0);
     glutSolidCube(1.0);
     glPopMatrix();
 }
